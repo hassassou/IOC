@@ -11,10 +11,13 @@ public class PresntationV2 {
         try {
             Scanner scanner = new Scanner(new File("config.txt"));
             String daoClassName = scanner.nextLine();
-            System.out.println(daoClassName);
+            //System.out.println(daoClassName);
             Class cDao = Class.forName(daoClassName);
             IDao dao = (IDao) cDao.newInstance();
-            System.out.println(dao.getTemperature());
+            //System.out.println(dao.getTemperature());
+            String metierClassName = scanner.nextLine();
+            Class cMetier = Class.forName(metierClassName);
+            IMetier metier = (IMetier) cMetier.newInstance();
         } catch (Exception e) {
             e.printStackTrace();
         }
