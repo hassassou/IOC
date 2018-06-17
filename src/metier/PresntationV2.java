@@ -11,6 +11,7 @@ public class PresntationV2 {
             String daoClassName = scanner.nextLine();
             System.out.println(daoClassName);
             Class cDao = Class.forName(daoClassName);
+            cDao.newInstance();
         } catch (Exception e) {
             e.printStackTrace();
         }
