@@ -1,5 +1,7 @@
 package metier;
 
+import dao.IDao;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -11,7 +13,8 @@ public class PresntationV2 {
             String daoClassName = scanner.nextLine();
             System.out.println(daoClassName);
             Class cDao = Class.forName(daoClassName);
-            cDao.newInstance();
+            IDao dao = (IDao) cDao.newInstance();
+            System.out.println(dao.getTemperature());
         } catch (Exception e) {
             e.printStackTrace();
         }
