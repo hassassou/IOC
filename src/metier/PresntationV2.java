@@ -4,6 +4,7 @@ import dao.IDao;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Method;
 import java.util.Scanner;
 
 public class PresntationV2 {
@@ -18,6 +19,10 @@ public class PresntationV2 {
             String metierClassName = scanner.nextLine();
             Class cMetier = Class.forName(metierClassName);
             IMetier metier = (IMetier) cMetier.newInstance();
+            // Appel dynamique d'une méthode
+            Method m = cMetier.getMethod("setDao",IDao.class);
+            m.invoke(metier,dao); // l'invocation dynamique d'une méthode
+            System.out.println(metier.calcul());
         } catch (Exception e) {
             e.printStackTrace();
         }
