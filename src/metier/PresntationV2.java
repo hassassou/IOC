@@ -10,7 +10,8 @@ public class PresntationV2 {
             Scanner scanner = new Scanner(new File("config.txt"));
             String daoClassName = scanner.nextLine();
             System.out.println(daoClassName);
-        } catch (FileNotFoundException e) {
+            Class cDao = Class.forName(daoClassName);
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
