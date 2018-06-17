@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49db0df6-a7a7-4085-83d8-479c0a450be4" name="Default" comment="Principe de fichier de configuration&#10;Lire une classe">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/IOC_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/presentation/PresentationAvecSpring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/IOC/metier/Presentation.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/metier/Presentation.java" afterPath="$PROJECT_DIR$/src/presentation/Presentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/metier/PresntationV2.java" afterPath="$PROJECT_DIR$/src/presentation/PresntationV2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOC.iml" afterPath="$PROJECT_DIR$/IOC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.xml" afterPath="$PROJECT_DIR$/src/config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PresentationAvecSpring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PresentationAvecSpring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/presentation/PresentationAvecSpring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -67,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -134,8 +126,8 @@
         <option value="$PROJECT_DIR$/src/presentation/PresntationV2.java" />
         <option value="$PROJECT_DIR$/src/metier/MetierImpl.java" />
         <option value="$PROJECT_DIR$/src/dao/DaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/config.xml" />
         <option value="$PROJECT_DIR$/src/presentation/PresentationAvecSpring.java" />
+        <option value="$PROJECT_DIR$/src/config.xml" />
       </list>
     </option>
   </component>
@@ -460,7 +452,7 @@
       <option name="presentableId" value="Default" />
       <updated>1529231756891</updated>
       <workItem from="1529231760740" duration="4458000" />
-      <workItem from="1529238413438" duration="5176000" />
+      <workItem from="1529238413438" duration="5281000" />
     </task>
     <task id="LOCAL-00001" summary="Principe de fichier de configuration&#10;Lire une classe">
       <created>1529238883334</created>
@@ -473,7 +465,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9634000" />
+    <option name="totallyTimeSpent" value="9739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,6 +478,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50417536" order="7" side_tool="true" content_ui="tabs" />
@@ -649,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/presentation/PresentationAvecSpring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -664,6 +649,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
